@@ -11,9 +11,8 @@ cursor = conn.cursor()
 
 
 # Create Database and Tables
-
-# cursor.execute("CREATE DATABASE  Atm_Machine")
-# cursor.execute("USE Atm_Machine")
+cursor.execute("CREATE DATABASE  Atm_Machine")
+cursor.execute("USE Atm_Machine")
 
     # Create Admin table
 cursor.execute("""
